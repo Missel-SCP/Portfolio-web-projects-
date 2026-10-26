@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aroma Café: cafés especiais, doces artesanais e momentos inesquecíveis.">
+  <meta name="theme-color" content="#2c211c">
+  <title>Aroma Café | Um momento especial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="navbar container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio" aria-label="Aroma Café - início">
+        <span class="logo-icon">A</span>
+        <span>Aroma<span class="logo-light"> Café</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Abrir menu" aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Nossa história</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#contato">Contato</a>
+        <a class="nav-cta" href="#cardapio">Explorar sabores ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content container">
+        <div class="hero-text">
+          <span class="eyebrow"><span class="eyebrow-line"></span> CAFÉ, CALMA E BOAS HISTÓRIAS</span>
+          <h1>Seu momento<br>favorito começa<br>com <em>um café.</em></h1>
+          <p>Mais do que uma xícara, uma pausa para sentir, conversar e aproveitar os pequenos prazeres da vida.</p>
+          <div class="hero-actions">
+            <a href="#cardapio" class="button button-primary">Conheça nosso cardápio <span>↗</span></a>
+            <a href="#sobre" class="text-link">Descubra nossa história <span>→</span></a>
+          </div>
+          <div class="hero-note">
+            <div class="note-stars">★★★★★</div>
+            <p><strong>Feito com carinho</strong><br><span>Cada xícara conta uma história.</span></p>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo">
+            <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=85" alt="Xícara de café preparada com cuidado">
+          </div>
+          <div class="floating-card">
+            <span class="floating-icon">☕</span>
+            <div><strong>Um café especial</strong><small>Para desacelerar.</small></div>
+          </div>
+          <span class="hero-decoration">feito para você</span>
+        </div>
+      </div>
+      <div class="hero-bottom container">
+        <span>CAFÉS ESPECIAIS</span><span class="bottom-dot">✳</span>
+        <span>DOCES ARTESANAIS</span><span class="bottom-dot">✳</span>
+        <span>MOMENTOS ÚNICOS</span>
+      </div>
+    </section>
+
+    <section class="section about-section" id="sobre">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=900&q=85" alt="Interior aconchegante de uma cafeteria">
+          <div class="about-stamp"><span>DESDE</span><strong>2024</strong><span>COM AMOR</span></div>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">UM LUGAR PARA CHAMAR DE SEU</span>
+          <h2>Pequenos momentos.<br><em>Grandes memórias.</em></h2>
+          <p>Acreditamos que os melhores momentos não precisam de muito: um café bem preparado, algo gostoso para acompanhar e pessoas especiais por perto.</p>
+          <p>O Aroma Café nasceu para transformar pausas simples em lembranças cheias de sabor, aconchego e afeto.</p>
+          <a href="#contato" class="text-link">Venha nos conhecer <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="cardapio">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">FEITO PARA DESPERTAR SEUS SENTIDOS</span>
+            <h2>Favoritos da <em>casa.</em></h2>
+          </div>
+          <p>Sabores escolhidos para acompanhar suas melhores pausas.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=85" alt="Café com leite cremoso">
+              <span class="product-tag">CLÁSSICO</span>
+            </div>
+            <div class="product-info">
+              <div class="product-title"><h3>Cappuccino Cremoso</h3><span>R$ 12,00</span></div>
+              <p>Espresso, leite vaporizado e uma espuma delicada.</p>
+              <a href="#contato" class="product-link">Quero experimentar <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=85" alt="Pães e doces artesanais">
+              <span class="product-tag">ARTESANAL</span>
+            </div>
+            <div class="product-info">
+              <div class="product-title"><h3>Doce da Casa</h3><span>R$ 10,00</span></div>
+              <p>Uma delícia artesanal para deixar o dia mais doce.</p>
+              <a href="#contato" class="product-link">Quero experimentar <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=700&q=85" alt="Café espresso servido em uma xícara">
+              <span class="product-tag">ESPECIAL</span>
+            </div>
+            <div class="product-info">
+              <div class="product-title"><h3>Espresso Aroma</h3><span>R$ 8,00</span></div>
+              <p>Intenso, aromático e preparado para surpreender.</p>
+              <a href="#contato" class="product-link">Quero experimentar <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+        <p class="menu-disclaimer">* Cardápio e preços ilustrativos para este projeto de portfólio.</p>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="container quote-content">
+        <span class="quote-mark">“</span>
+        <blockquote>Às vezes, tudo o que a gente precisa é de um bom café e um pouco de tempo.</blockquote>
+        <span class="quote-caption">UM LEMBRETE DO AROMA CAFÉ</span>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <span class="eyebrow">VAMOS CONVERSAR?</span>
+          <h2>Seu próximo café<br>pode ser <em>com a gente.</em></h2>
+          <p>Tem alguma dúvida ou sugestão? Envie uma mensagem. Será um prazer conversar com você.</p>
+          <div class="contact-detail"><span>✉</span><div><strong>Nosso cantinho</strong><p>Preencha o formulário ao lado para falar conosco.</p></div></div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <label for="name">Seu nome</label>
+          <input id="name" name="name" type="text" placeholder="Como podemos te chamar?" required>
+
+          <label for="email">Seu e-mail</label>
+          <input id="email" name="email" type="email" placeholder="voce@exemplo.com" required>
+
+          <label for="message">Sua mensagem</label>
+          <textarea id="message" name="message" rows="4" placeholder="Escreva sua mensagem..." required></textarea>
+
+          <button type="submit" class="button button-primary form-button">Enviar mensagem <span>↗</span></button>
+          <p class="form-note" id="form-note" role="status">Demonstração de formulário — não envia dados para um servidor.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a class="logo footer-logo" href="#inicio"><span class="logo-icon">A</span><span>Aroma<span class="logo-light"> Café</span></span></a>
+      <p>Feito com ☕ e carinho.</p>
+      <span>© <span id="year"></span> Aroma Café. Projeto de portfólio.</span>
+    </div>
+  </footer>
+</body>
+</html>
